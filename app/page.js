@@ -2,27 +2,7 @@
 import { useState } from "react";
 
 const Home = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [latitude, setLatitude] = useState(null);
-  const [longitude, setLongitude] = useState(null);
 
-  const getLocation = () => {
-    if ("geolocation" in navigator) {
-      navigator.geolocation.getCurrentPosition(
-        async (position) => {
-          const { latitude, longitude } = position.coords;
-          console.log(`Latitude: ${latitude}, Longitude: ${longitude}`);
-          setLatitude(latitude);
-          setLongitude(longitude);
-        },
-        (error) => {
-          console.error("Error getting user's location:", error);
-        }
-      );
-    } else {
-      console.error("Geolocation is not available in this browser.");
-    }
-  };
 
   return (
     <section className="w-full flex-center flex-col">
