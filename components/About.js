@@ -8,7 +8,7 @@ export default function About() {
       <h1 className="head_text text-center">
       
         <br className="max-md:hidden" />
-        <span className="custom_gradient_forsteps text-center">It's as easy as 123</span>
+        <span className="custom_gradient_forsteps text-center">Its as easy as 123</span>
         <br className="max-md:hidden" />
       </h1>
       <p className="mt-5 text-center text-lg">
