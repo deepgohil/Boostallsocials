@@ -15,13 +15,10 @@ const Navbar = () => {
         <p className="logo_text">Boostallsocials</p>
       </Link>
 
-      {/* Desktop Navigation */}
       <div className="sm:flex hidden">
         <div className="flex gap-3 md:gap-5">
 
-          {/* <Link href="/cropRecommendation" className="black_btn">
-            Crop Recommendation 
-          </Link> */}
+
           <Link href="/crop-disease" className="black_btn">
             Browse
           </Link>
@@ -29,15 +26,7 @@ const Navbar = () => {
           Sign In
           </button>
 
-          {/* <Link href="/profile">
-            <Image
-              src="/assets/images/profile.png"
-              width={37}
-              height={37}
-              className="rounded-full"
-              alt="profile"
-            />
-          </Link> */}
+
         </div>
       </div>
 

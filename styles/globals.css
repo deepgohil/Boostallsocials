@@ -100,6 +100,15 @@
   @apply bg-gradient-to-r from-purple-500 via-pink-600 to-pink-500 bg-clip-text text-transparent;
 }
 
+.orange_yellow_gradient {
+  @apply bg-gradient-to-r from-orange-500 via-yellow-500 to-yellow-300 bg-clip-text text-transparent;
+}
+.custom_gradient_forsteps {
+  @apply bg-gradient-to-r to-fuchsia-600 from-teal-200 via-orange-500 bg-clip-text text-transparent;
+}
+
+
+
 .green_gradient {
   @apply bg-gradient-to-r from-green-400 to-green-500 bg-clip-text text-transparent;
 }
