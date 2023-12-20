@@ -8,7 +8,7 @@ function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-lg font-medium">About</h3>
-            <p className="mt-2 text-sm">OpenAI is an AI research laboratory consisting of the for-profit corporation OpenAI LP and its parent company, the non-profit OpenAI Inc.</p>
+            <p className="mt-2 text-sm"> Welcome to Boostallsocials, your one-stop solution for boosting your social media presence. We understand the importance of having a strong online presence, and our services are designed to help you achieve just that.</p>
           </div>
           <div>
             <h3 className="text-lg font-medium">Contact</h3>
@@ -36,7 +36,7 @@ function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8">
-          <p className="text-base">&copy; 2023 OpenAI, Inc. All rights reserved.</p>
+          <p className="text-base">&copy; 2023 Boostallsocials, Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>
