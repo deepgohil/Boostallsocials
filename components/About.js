@@ -47,9 +47,9 @@ const YourComponent = () => {
       <section className="w-full flex-center flex-col mt-8">
         <h2 className="text-2xl font-bold mb-4">Pricing Packages</h2>
         <h3 className="mb-4">Choose the perfect plan for your Instagram and YouTube needs.</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
           {/* Feature 1 */}
-          <div className="feature-card">
+          <div className="feature-card ">
           <h2 className="text-2xl font-bold mb-4">Basic Plan</h2>
           <h1 className="text-2xl font-bold mb-4">100 ₹</h1>
 
@@ -62,7 +62,7 @@ const YourComponent = () => {
           </div>
 
           {/* Feature 2 */}
-          <div className="feature-card">
+          <div className="feature-card bg-[#ED9ED6] p-5 rounded-md">
           <h2 className="text-2xl font-bold mb-4">Basic Plan</h2>
           <h1 className="text-2xl font-bold mb-4">100 ₹</h1>
 
