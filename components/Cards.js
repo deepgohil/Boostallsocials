@@ -10,7 +10,7 @@ function Cards() {
      <h1 className="head_text text-center">
      
        <br className="max-md:hidden" />
-       <span className="orange_yellow_gradient text-center">Happy Customers</span>
+       <span className="purple_pink_gradient text-center">Happy Customers</span>
        <br className="max-md:hidden" />
      </h1>
      <p className="mt-5 text-center text-lg">
